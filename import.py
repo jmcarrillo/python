@@ -5,3 +5,5 @@ page = urllib.request.urlopen("http://www.beans-r-us.appspot.com/prices-loyalty.
 text = page.read().decode("utf8")
 
 print(text)
+
+print("¡¡¡Hola!!!")
