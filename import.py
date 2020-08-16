@@ -1,17 +1,12 @@
 
-print("Bienvenidos a su practica!")
+print("Bienvenido a tu practica con python")
 
-x = int(input("Introduce un número entero: "))
+x = 15
+y = 15
 
-if x < 10:
-   print('Pequeño')
-   print('Hecho')
-
-if x%2 == 0 :
-   print('x es par')
-else :
-   print('x es impar')
-page = urllib.request.urlopen("http://www.beans-r-us.appspot.com/prices-loyalty.html")
-text = page.read().decode("utf8")
-
-print(text)
+if x < y:
+    print("x es menor que y")
+elif x > y:
+    print('x es mayor que y')
+else:
+    print('x e y son iguales')
