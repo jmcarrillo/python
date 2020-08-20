@@ -20,6 +20,18 @@ at(text[start_of_price:end_of_price])
 get_price()
 
 else:
+else:
+# price= 99.99
+# while price> 4.74:
+#    time.sleep(90)
+# price= 99.99
+# while price> 4.74:
+#    time.sleep(90)
+else:
+else:
+# price= 99.99
+# while price> 4.74:
+#    time.sleep(90)
 # price= 99.99
 # while price> 4.74:
 #    time.sleep(90)
