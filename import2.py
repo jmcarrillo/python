@@ -27,3 +27,11 @@ else:
 # price= 99.99
 # while price> 4.74:
 #    time.sleep(90)
+else:
+else:
+# price= 99.99
+# while price> 4.74:
+#    time.sleep(90)
+# price= 99.99
+# while price> 4.74:
+#    time.sleep(90)
