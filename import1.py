@@ -1,46 +1,5 @@
-#!/usr/bin/env python3
-import urllib.request
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-page = urllib.request.urlopen("http://www.beans-r-us.appspot.com/prices-loyalty.html")
-text = page.read().decode("utf8")
-price= text[250:255]
-print(price)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-page = urllib.request.urlopen("http://www.beans-r-us.appspot.com/prices-loyalty.html")
-text = page.read().decode("utf8")
-price= text[250:255]
-print(price)
-
-
-
-
+ent = input('Introduzca la Temperatura Fahrenheit:')
+fahr = float(ent)
+cel = (fahr - 32.0) * 5.0 / 9.0
+print(cel)
